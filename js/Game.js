@@ -407,17 +407,9 @@ class Game {
     });
   }
 
-  gameOver() {
-    swal({
-      title: `Fim de Jogo`,
-      text: "Oops você perdeu a corrida!",
-      imageUrl:
-        "https://cdn.shopify.com/s/files/1/1061/1924/products/Thumbs_Down_Sign_Emoji_Icon_ios10_grande.png",
-      imageSize: "100x100",
-      confirmButtonText: "Obrigado por jogar"
-    });
-  }
-  
+// CRIE O GAMEoVER
+
+
   end() {
     console.log("Fim de Jogo");
   }
